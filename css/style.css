@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+:root{
+	--verde:#0f9e5c;
+	--fondo_p:#4c535b;
+	--icon_menu:#c6d0d;
+	--text_menu:#878b94;
+	--bg_menu:	#4d545c;
+	--f7-list-border-color: none;
+	--gris:#b0b6c2;
+	--carbon:#3b3c40;
+	--l-azul: #00aae4;
+	--pink: #FF708B;
+	--dark-p: #b8146d;
+}
+.panel-left{
+	background-color:var(--pink);
+	color: #fff;
+}
+.letra_v{
+	color: var(--verde);
+}
+.letra_b{
+	color: #FFFFFF;
+}
+.list-menu .item-media span{
+	color: var(--icon_menu);
+	
+}
+.img-p{
+	border-radius: 100%;
+}
+
+.list-menu .item-inner::before{
+	color: rgba(255,255,255,0.50) !important;
+}
+
+.list-menu .item-inner{
+	color: #fff;
+}
+.list-menu{
+	background-color: var(--pink)!important;
+	font-size: 15px;
+}
+.list-menu .item-inner::after{
+	background-color: transparent!important;
+}
+h1, h2, h3, h4{
+	margin: 2.5px 0;
+}
+.block-title{
+	color: #000;
+	font-weight: 600;
+}
+.img-fluid{
+	max-width:  100%;
+}
+
+.card-flower .card-header{
+	padding: 0px
+}
+
+.card-flower .card-header img{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.card-flower .card-content{
+	background-color: #FF708B;
+	color: #fff;
+	padding: 12px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-size: 16px;
+}
+.card-flower .card-content article:last-child{
+	justify-content: right;
+	display: flex;
+	font-size: 13px;
+}
+
+.categorias .card{
+	background-color: var(--pink);
+	color: #fff;
+	padding: 5px 10px;
+}
+
+.categorias .card-content img{
+	width: 40px;
+}
+.derecha{
+	text-align: right;
+}
+.categorias h3{
+	margin-top: -20%;
+	font-size: 15px;
+	font-weight: 600;
+}
+.bg-rosa{
+	background-color: var(--pink);
+	color: #fff;
+	padding: 45px 0;
+}
+.bg-rosa block{
+	margin-top: 0;
+}
+.perfil-c .card-content{
+	padding: 20px;
+	text-align: center;
+	margin-top: -20%;
+	box-shadow: 0px 0px 10px 0px #ccc;
+}
+.perfil-c h4{
+	font-size: 24px;
+}
+.list-perfil .item-header{
+	color: #666;
+}
+.list-perfil .item-title{
+	font-weight: 500;
+}
+.bg-productos{
+	background-image: url("../img/Ramos-Flores-Cumpleanos.jpg");
+	background-size: cover;
+	background-position: top center;
+	height: 25%;
+}
+.bg-productos h2{
+	color: var(--dark-p);
+	text-align: center;
+	font-size: 26px;
+	font-weight: 700;
+	padding-top: 3%;
+}
+.bg-productos .block{
+	margin-top: 0;
+}
+.lista-productos .item-media img{
+	width: 80px;
+}
+.lista-productos .span{
+	text-align: center;
+}
+
+.info-producto .popup-close{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #aaa;
+}
+.info-producto .titulo{
+	font-size: 20px;
+}
+.info-producto .info{
+	color: #aaa;
+}
+.info-producto .precio{
+	color: var(--azul);
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
